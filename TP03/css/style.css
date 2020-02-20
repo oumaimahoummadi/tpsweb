@@ -1,0 +1,28 @@
+header{
+        border: 3px solid black;
+        background-image: url("../bb.jpg");
+        
+      }
+      
+h1 {
+        color: maroon;
+        margin-left: 40px;
+}
+head{
+     style="color: black;font-size:40px"
+}
+fieldset{
+    style="color:white;font-size:33px"
+}
+h1{
+    style="color: white;font-size:60px"
+}
+p{
+    style="color: white;font-size:80"
+}
+body {
+    background-image: url('ouma.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
