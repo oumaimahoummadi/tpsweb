@@ -1,0 +1,47 @@
+header{
+        border: 3px solid black;
+        background-image: url('ouma.jpg');
+        background-size: cover;
+      }
+      
+h1 {
+        color: maroon;
+        margin-left: 40px;
+}
+head{
+     style="color: black;font-size:40px"
+}
+fieldset{
+    style="color:white;font-size:33px"
+}
+h1{
+    style="color: white;font-size:60px"
+}
+p{
+    style="color: white;font-size:80"
+}
+body {
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  }
+  footer{
+      position:fixed;
+      bottom: 0%;
+      text-align: center;
+      align-items: center;
+      background-image: url('ouma.jpg');
+      background-size: cover;
+    
+    }
+    nav{
+        background-origin:  2px solid;
+        height: 2px;
+        background-color: azure;
+        position: fixed;
+        top :0;
+        text-align: center;
+      align-items: center;
+
+    }
