@@ -5,7 +5,7 @@ header{
       }
       
 h1 {
-        color: maroon;
+        color: rgb(17, 15, 15);
         margin-left: 40px;
 }
 head{
@@ -14,15 +14,15 @@ head{
 fieldset{
     style="color:white;font-size:33px"
 }
-h1{
-    style="color: white;font-size:60px"
+h2{
+    style="color: black;font-size:60px"
 }
 p{
-    style="color: white;font-size:80"
+    style="color: black;font-size:80"
 }
-body {
-    background-image: url('ouma.jpg');
+/*body {
+    background-image: url('ou.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-  }
+  }/*
