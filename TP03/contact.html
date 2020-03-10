@@ -2,34 +2,39 @@
 <html>
 
       <head>
-              <title>home</title>>
+              <title>contact</title>>
               <meta charset="UTF-8"/>
-
+              <link rel="stylesheet" href="css/style.css"> <link rel="stylesheet" href="css/style.css">
       </head>>
 
-      <body>  
-              
-                  <a href="index.html">home</a>
-                  <a href="produits.html">produits</a>
-                  <a href="apropos.html">apropos</a>
-                  <a href="contact.html">contact</a>
+      <body>
+        <header>
+              <nav>
+        <a class="cc" href="index.html">home</a>
+        <a class="cc" href="produits.html">produits</a>
+        <a class="cc" href="apropos.html">apropos</a>
+        <a class="cc"href="contact.html">contact</a>
+              </nav>
+    </header>
+    <section>
         <center>
           <h1><i> Shoes_kim </i></h1>
         </center>
-        <h2><b>_Contactez nous_</b></h2>
+        <marquee direction="contact"> 
+        <h2><b>Contactez nous</b></h2></marquee>
 
-    <form >
+    <form class="entr">
        <p>nom :</p>
-       <input type="text" placeholder="votre nom">
+       <input class="entr" type="text" placeholder="votre nom">
        <p>prénom :</p>
-       <input type="text" placeholder="votre prénom">
+       <input class="entr"type="text" placeholder="votre prénom">
        <p>Email :</p>
-       <input type="text" placeholder="votre Email">
+       <input class="entr"type="text" placeholder="votre Email">
        <p>Genre :</p>
-       <input type="radio" name="gHr" value="M">homme
-       <input type="radio" name="gHr" value="F">famme
+       <input class="entr"type="radio" name="gHr" value="M">homme
+       <input class="entr"type="radio" name="gHr" value="F">famme
        <p>paye</p>
-       <select name="paye" id="paye">
+       <select class="entr" name="paye" id="paye">
         <option value="m">maroc</option>
         <option value="k">korea</option>
         <option value="u">USA</option>
@@ -37,10 +42,13 @@
         <option value="c">china</option>
     </select>
        <p>message :</p>
-       <textarea name="message" id="" cols="30" rows="10"></textarea>
+       <textarea class="entr"name="message" id="" cols="30" rows="10"></textarea>
      </form>  
-     <input type="submit" value="ok">envoyer
-     <input type="reset" value="no">Annuler
-</body>
+    <div id="ent">
+     <input class="entr"type="submit" value="ok">envoyer
+     <input class="entr"type="reset" value="no">Annuler
+    </div>
+    </section>
+    </body>
 
 </html>
