@@ -47,7 +47,7 @@ console.log( e.prenom);
 console.log( e.age);
 e.name="kim"
 console.log(e);
-*/
+
 
 
 function etudiant(nom.prenom.age){
@@ -77,3 +77,25 @@ var me1=e1.calculmoyenne()
 var me2=e2.calculmoyenne()
 console.log("moy e1:",me1);
 console.log("moy e2:",me2);
+*/
+
+
+var age=parseInt(prompt("donner votre age"));
+if(age<1){
+    alert("!!!!!!")
+}
+else if(age<=17){
+        alert("vous n'etes pas encore majeur")
+        }
+      else if(age<=49){
+            alert("vous etes majeur mais pas encore senior")
+        }
+          else if(age<=59){
+             alert("vous etes senior mais pas encore retraite")
+         }
+             else if(age<=120){
+                 alert("vous etes retraite,profiter di votre temps libre !")
+                  }
+                        else{
+                      alert("tapper un age correct")}
+                      
