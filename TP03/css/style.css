@@ -1,4 +1,4 @@
-   h1{
+h1{
        color: rgb(245, 190, 39);
        text-shadow: black 2px 1px;
         font-size: 33px;
@@ -10,13 +10,10 @@ h1:hover{
 header{
 
 }
-}
 h2{
-    
     font-style: italic;
     font-size:"60px"
     border:black solid;
-    
 }
 p{
     color: white;
@@ -81,7 +78,7 @@ th{
 }
 header{
     position: fixed;
-    z-index: 2;
-    top: o;
-    left: o;
+    z-index:2;
+    top:o;
+    left:o;
 }

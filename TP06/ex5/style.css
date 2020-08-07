@@ -1,0 +1,47 @@
+.conteneur{
+    border: 5px solid grey;
+    width: 330px;
+    height: 140px;
+    margin-top: 200px;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+.chronometre{
+    margin: auto ;
+    width: 300px;
+    text-align: center;
+    //
+    
+}
+
+.tim{
+    margin-top: 5px;
+    width: 300px;
+    border: 1px solid rgba(0,0,0,0.5);
+    padding:5px 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: digital;
+    margin-bottom: 10px;
+
+
+}
+ 
+button{
+    background: #3498db;
+    color: #fff;
+    width: 70px;
+    border-radius: 5px;
+    line-height: 1.5em;
+    border: none;
+}
+.cont{
+    //border: 1px solid grey;
+    width: 100%;
+    height: 55px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 35px;
+    background-color: grey;
+}
+

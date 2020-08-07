@@ -77,7 +77,7 @@ var me1=e1.calculmoyenne()
 var me2=e2.calculmoyenne()
 console.log("moy e1:",me1);
 console.log("moy e2:",me2);
-*/
+
 
 
 var age=parseInt(prompt("donner votre age"));
@@ -98,4 +98,13 @@ else if(age<=17){
                   }
                         else{
                       alert("tapper un age correct")}
-                      
+       
+ */      
+function somme(a,b){
+    if((typeof a ==='undefined')||(typeof b ==='undefined')){
+        alert("hiiiii");
+        return NaN
+    }
+    return parseInt(a)+parseInt(b)
+}
+somme('e',6)
